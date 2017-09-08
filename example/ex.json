@@ -1,0 +1,29 @@
+
+   "students": [
+
+      {
+         "rollno":"01",
+         "name": "John",
+         "section": "A"
+
+      },
+
+      {
+         "rollno":"02",
+         "name": "Jack",
+         "section": "B"
+
+      },
+      {
+         "rollno":"03",
+         "name": "Jim",
+         "section": "C"
+
+      },
+      {
+         "rollno":"04",
+         "name": "Jill",
+         "section": "A"
+
+      }
+   ]

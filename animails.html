@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Javascript Array length property</title>
+</head>
+<body>
+<script type="text/javascript">
+var pets = new Array ( );
+ 
+pets[0] = new Array ( "Sheba", 13, "cat" );
+
+pets[1] = new Array ( "Jasper", 12, "dog" );
+ document.write( "<br/>");
+var dinosaurs = new Array ( );
+
+dinosaurs[0] = new Array ( "Cyril", 45, "Tyrannosaur" );
+
+dinosaurs[1] = new Array ( "Gertrude", 72, "Brontosaur" );
+var animals = new Array ( pets, dinosaurs );
+document.write ( animals[0][1][0] + " is a " + animals[0][1][1] + " year old " + animals[0][1][2] );
+ document.write( "<br/>"); // Displays "Jasper is a 12 year old dog"
+for ( i=0; i<animals.length; i++ )
+{
+  for ( j=0; j<animals[i].length; j++ )
+  {
+    document.write( animals[i][j][0] + " is a " + animals[i][j][1] + " year old " + animals[i][j][2] );
+ document.write( "<br/>");
+  }
+}
+</script>
+</body>
+</html>

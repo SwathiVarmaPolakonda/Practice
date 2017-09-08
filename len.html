@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Javascript Array length property</title>
+</head>
+<body>
+<script type="text/javascript">
+data = {"shareInfo":[{"id":"1","a":"sss","b":"sss","question":"whi?"},
+{"id":"2","a":"sss","b":"sss","question":"whi?"},
+{"id":"3","a":"sss","b":"sss","question":"whi?"},
+{"id":"4","a":"sss","b":"sss","question":"whi?"}]};
+
+ShareInfoLength = data.shareInfo.length;
+alert(ShareInfoLength);
+for(var i=0; i<ShareInfoLength; i++)
+{
+document.write(Object.keys(data.shareInfo[i]).length);
+}
+document.write("<br />");
+</script>
+</body>
+</html>

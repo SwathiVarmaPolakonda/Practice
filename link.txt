@@ -1,0 +1,6 @@
+https://javascript.info/array
+https://www.xul.fr/javascript/arrays.php
+http://www.java2s.com/Tutorial/JavaScript/0570__Dojo-toolkit/CreateanArrayListandaddelementstoit.htm
+http://www.java2s.com/Tutorial/JavaScript/0220__Array/Catalog0220__Array.htm
+http://eloquentjavascript.net/04_data.html
+http://www.javascripter.net/faq/twodimensional.htm
